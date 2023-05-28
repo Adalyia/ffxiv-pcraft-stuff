@@ -5,6 +5,7 @@
 * ~4000 Control
 * ~4000 Craftsmanship
 * This is NOT intended to be used in combination with potions or pots which increase your stats
+* This macro is explicitly intended for use with the [SomethingNeedDoing](https://github.com/daemitus/SomethingNeedDoing) plugin and `Smart Wait` option enabled, it will not function otherwise.
 
 ```
 /ac "Muscle Memory"
