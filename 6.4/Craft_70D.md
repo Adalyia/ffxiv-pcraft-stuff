@@ -1,3 +1,12 @@
+# This is a macro intended for use with penta-melded crafter's Indagator's gear in patch 6.4 of FFXIV
+
+### Requirements for use
+* 589 CP
+* ~4000 Control
+* ~4000 Craftsmanship
+* This is NOT intended to be used in combination with potions or pots which increase your stats
+
+```
 /ac "Muscle Memory"
 /ac Manipulation
 /ac "Waste Not II"
@@ -19,3 +28,4 @@
 /ac "Great Strides"
 /ac "Byregot's Blessing"
 /ac "Careful Synthesis"
+```
