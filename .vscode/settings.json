@@ -1,9 +1,5 @@
 {
     "Lua.diagnostics.globals": [
-        "yield",
-        "CanExtractMateria",
-        "IsAddonVisible",
-        "NeedsRepair",
-        "IsAddonReady"
+        "Add"
     ]
 }

@@ -1,12 +1,11 @@
-local macro_name = "Craft_70D"
-local recipe_name = "Grade 8 Tincture of Dexterity"
+local macro_name = "Craft_G5_Alkahest"
+local recipe_name = "Grade 5 Dexterity Alkahest"
 
 function recipe_setup()
     yield("/recipe \"" .. recipe_name .. "\"")
     yield("/waitaddon RecipeNote")
 
     -- RECIPE SPECIFIC PARAMS (This is where we pick how many of each material should be HQ vs NQ)
-    yield("/click synthesis_material2_hq")
     -- END RECIPE SPECIFIC PARAMS
 end
 
