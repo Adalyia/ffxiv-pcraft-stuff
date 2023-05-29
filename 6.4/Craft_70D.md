@@ -10,23 +10,19 @@
 ```
 /ac "Muscle Memory"
 /ac Manipulation
-/ac "Waste Not II"
 /ac Veneration
+/ac "Waste Not II"
 /ac Groundwork
 /ac Groundwork
 /ac Groundwork
-/ac "Careful Synthesis"
 /ac Innovation
 /ac "Preparatory Touch"
-/ac "Basic Touch"
-/ac "Standard Touch"
-/ac "Advanced Touch"
-/ac "Prudent Touch"
-/ac "Waste Not"
+/ac "Preparatory Touch"
+/ac "Preparatory Touch"
+/ac "Preparatory Touch"
 /ac Innovation
-/ac "Basic Touch"
-/ac "Standard Touch"
 /ac "Great Strides"
 /ac "Byregot's Blessing"
-/ac "Careful Synthesis"
+/ac Veneration
+/ac Groundwork
 ```
