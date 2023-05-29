@@ -1,12 +1,11 @@
-local macro_name = "Craft_70D"
-local recipe_name = "Grade 8 Tincture of Mind"
+local macro_name = "Craft_G5_Alkahest"
+local recipe_name = "Grade 5 Dexterity Alkahest"
 
 function recipe_setup()
     yield("/recipe \"" .. recipe_name .. "\"")
     yield("/waitaddon RecipeNote <maxwait.10>")
 
     -- RECIPE SPECIFIC PARAMS (This is where we pick how many of each material should be HQ vs NQ)
-    yield("/click synthesis_material2_hq")
     -- END RECIPE SPECIFIC PARAMS
 end
 
@@ -20,8 +19,16 @@ function repair_items()
     yield("/waitaddon RecipeNote <maxwait.10>")
 
     -- Exit the Recipe Note window
-    yield("/send ESCAPE")
-    yield("/wait 4")
+    while IsAddonVisible("RecipeNote") do
+        yield("/send ESCAPE")
+        yield("/wait 2")
+    end
+
+    -- Exit the System Menu if it was opened
+    while IsAddonVisible("SystemMenu") do
+        yield("/send ESCAPE")
+        yield("/wait 2")
+    end
 
     -- Open the Repair window
     yield("/ac Repair")
@@ -41,14 +48,14 @@ function repair_items()
     -- Wait for the action to complete
     yield("/wait 4")
     
-    -- Close the Repair window
-    yield("/send ESCAPE")
+    -- Exit the Repair window
+    while IsAddonVisible("Repair") do
+        yield("/send ESCAPE")
+        yield("/wait 2")
+    end
 
-    -- 
-    yield("/wait 2")
     recipe_setup()
 end
-
 
 -- Open the recipe book and apply the params for HQ items
 recipe_setup()
