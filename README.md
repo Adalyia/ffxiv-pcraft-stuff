@@ -1,9 +1,9 @@
-# Auto-Repair
+# Auto-Repair / Auto-Materia-Extraction
 
 ### Requirements
 * [SomethingNeedDoing](https://github.com/daemitus/SomethingNeedDoing)
 * All crafters leveled (The ability to repair your own gear without the use of a mender)
-
+* Materia Extraction unlocked
 
 
 ## Instructions
